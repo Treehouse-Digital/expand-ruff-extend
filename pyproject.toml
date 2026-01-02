@@ -10,4 +10,7 @@ dependencies = [
 ]
 
 [project.scripts]
-expand-ruff-extend = "expand-ruff-extend:_cli"
+expand-ruff-extend = "expand_ruff_extend._cli:main"
+
+[tool.uv]
+package = true

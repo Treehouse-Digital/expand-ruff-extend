@@ -31,8 +31,11 @@ repos:
 
 ## Contributing
 
-This repo uses uv to perform package managing:
+This repo uses [uv](https://docs.astral.sh/uv/) to perform package managing.
+
+After cloning down the repository:
 
 ```bash
-uv run ./expand-ruff-extend
+uv sync
+uv run expand-ruff-extend
 ```
