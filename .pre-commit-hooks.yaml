@@ -1,0 +1,7 @@
+-   id: expand-ruff-extend
+    name: Expand ruff config's extend attribute
+    description: Expand extend in pyproject.toml and write to .ruff.toml
+    entry: expand-ruff-extend
+    language: python
+    pass_filenames: false
+    always_run: true

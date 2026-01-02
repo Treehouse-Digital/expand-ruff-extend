@@ -1,0 +1,13 @@
+[project]
+name = "expand-ruff-extend"
+version = "0.1.0"
+description = "Expand ruff config's extend attribute and write it out"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "rich>=14.2.0",
+    "toml-rs>=0.2.2",
+]
+
+[project.scripts]
+expand-ruff-extend = "expand-ruff-extend:_cli"

@@ -1,0 +1,9 @@
+# Auto-generated from expanding out pyproject.toml
+target-version = "py310"
+
+[lint]
+select = ["ALL"]
+ignore = ["G004", "S607", "S603", "COM812", "COM819", "D212", "D213", "D203", "D211"]
+
+[lint.per-file-ignores]
+"**/tests/**/*.py" = ["S101", "ARG", "FBT"]
